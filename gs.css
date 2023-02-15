@@ -45,3 +45,41 @@ tr:nth-child(even){
 tr:nth-child(odd) {
     background-color: rgb(32, 146, 114);
 }
+.SHE:hover{
+    width:100px;
+    height: 50px;
+    box-shadow:10px 10px 5px #90EE90;
+    font-size: 15px;
+    padding: 3px;
+
+
+}
+.HE:hover{
+    width:100px;
+    height: 50px;
+    box-shadow:10px 10px 5px #ca0ba1;
+    font-size: 15px;
+    padding: 3px;
+
+
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover{
+    background-color: aqua;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
